@@ -8,6 +8,9 @@ import ConfirmPage from './pages/ConfirmPage';
 import TermsPage from './pages/TermsPage';
 import SuccessPage from './pages/SuccessPage';
 import RecordsPage from './pages/RecordsPage';
+import PersonalityQuizPage from './pages/PersonalityQuizPage';
+import WorkLifeQuizPage from './pages/WorkLifeQuizPage';
+import RoomCleanlinessQuizPage from './pages/RoomCleanlinessQuizPage';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <Route path="/invest/terms" element={<TermsPage />} />
         <Route path="/invest/success" element={<SuccessPage />} />
         <Route path="/invest/records" element={<RecordsPage />} />
+        <Route path="/quiz/personality" element={<PersonalityQuizPage />} />
+        <Route path="/quiz/work-life" element={<WorkLifeQuizPage />} />
+        <Route path="/quiz/room-cleanliness" element={<RoomCleanlinessQuizPage />} />
       </Routes>
     </Router>
   );
